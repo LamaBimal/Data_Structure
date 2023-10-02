@@ -63,7 +63,7 @@ print(this_list[:5]) // starting from index 0 upto index 4
 print(this_list[2:]) // starting index 2 to last
 ```
 
-Append Items
+#### Append Items:
 
 - To add an item to the end of the list, use the append() method
 
@@ -73,7 +73,7 @@ this_list.append("Gita")
 print(this_list)
 ```
 
-Insert Items
+**Insert Items:**
 
 -  To insert an item at a specified index, use the insert(`index`, `item`) method.
 
@@ -84,7 +84,7 @@ print(this_list)
 
 ```
 
-Update Item:
+**Update Item:**
 
 -  To change the value of a specified index, refer to the index number
 
@@ -94,7 +94,7 @@ this_list[1] = "orange"
 
 print(this_list) # ["apple", "orange", "cherry"]
 ```
-Remove Items:
+**Remove Items:**
 
 The remove() method removes the specified item.
 
