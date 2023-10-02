@@ -95,3 +95,31 @@ this_list[1] = "orange"
 print(this_list) # ["apple", "orange", "cherry"]
 ```
 Remove Items:
+
+The remove() method removes the specified item.
+
+```
+this_list = ["apple", "banana", "cherry"]
+this_list.remove("banana")
+print(this_list)
+```
+If there are more than one item with the specified value, the remove() method removes the first occurrence.
+
+**Remove Specified Index**
+
+The pop() method removes the specified index.
+
+Example:
+```
+this_list = ["apple", "banana", "cherry"]
+this_list.pop(1)
+print(this_list)
+```
+
+If you don't specify the index, the pop() method removes the last item.
+
+```
+this_list = ["blueberry", "cherry", "mango"]
+this_list.remove()
+print(this_list)
+```
