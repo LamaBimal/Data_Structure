@@ -1,18 +1,18 @@
-**Data Structure**
+# Data Structure
 
 Organizing, managing, and storing data is important as it enables easier access and efficient modification. Data Structures allow you to organize your data in a way that enables you to store the collections of data, relate them, and perform operations on them accordingly.
 
 The basic Python data structures in Python include lists, sets, tuples, and dictionaries. Each of the data structures is unique in its own way.
 
 
-**List**
+## List
 
 - An ordered collection of items
 - Used to store multiple items in a single variable
 - A list can be nested, which means that it can contain any type of object.
 - List is mutable, which means it can be altered even after being created.
 
-Creation:
+**Creation:**
 
 - List can be created by using square brackets
 
@@ -31,7 +31,7 @@ List Items
 - Items are ordered, changeable, and allow duplicate values
 - Items are indexed, the first item has index[0], the second item has index[1] and so on.
 
-Access List Items
+**Access List Items:**
 
 - List items are indexed and we can access them by referring to the index number
 
@@ -47,7 +47,7 @@ this_list = ["apple", "banana", "cherry"]
 print(this_list[-1]) // display cherry
 ```
 
-Range of Indexes
+**Range of Indexes**
 
 - Specify a range of indexes where to start and where to end the range
 - It will return the new list of specified items
